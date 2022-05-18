@@ -8,9 +8,10 @@
 - MAMPのphpMyAdminにデータベースを作っています。
 ## ②工夫した点・こだわった点
 - 写経です！
+- 参考にしたYoutube（これを見ながらコードを打ち学んだ）　：　https://www.youtube.com/watch?v=yvK9z-e5rMo&list=PLCyDm9NTxdhJYNEcbTzq0cey5qEeGwK-3&index=2
 - とはいえこうやったら動くのか、を知ることに努めました。コメントを丁寧に書きました。
 ## ③苦労した点
 - phpはエラーを返してくれず、動かないときにどこが問題なのか特定するのに苦労した
 - 原因は単純なタイポだったり。
 ## ④その他（感想、シェアしたいことなんでも）
-- 参考にしたYoutube（これを見ながらコードを打ち学んだ）　：　https://www.youtube.com/watch?v=yvK9z-e5rMo&list=PLCyDm9NTxdhJYNEcbTzq0cey5qEeGwK-3&index=2
+- 
