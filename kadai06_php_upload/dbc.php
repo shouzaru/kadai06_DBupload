@@ -72,7 +72,7 @@ function getAllFile()
 
 // エスケープ
 function h($s){
-    return htmlspecialchars($s, ENT_QUOTES, "UTF-8");
+    return htmlspecialchars($s, ENT_QUOTES, "UTF-8");                   //フォームからhtmlタグが投稿された場合、タグを文字列として認識して予期せぬ挙動を起こすことを回避するhtmlspecialchars()
 }
 
 ?>
