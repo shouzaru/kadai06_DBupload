@@ -66,7 +66,7 @@ $files = getAllFile();
         ></textarea>
       </div>
       <div class="submit">
-        <input type="submit" value="送信" class="btn" />
+        <input type="submit" value="送信" class="btn" />                            
       </div>
     </form>
     <div>
@@ -74,7 +74,7 @@ $files = getAllFile();
       <h2>アップロード済みの画像ファイル</h2>
       <?php foreach($files as $file): ?>
         <img src="<?php echo "{$file['file_path']}";?>" alt="">
-        <p><?php echo h("{$file['description']}");?></p>
+        <p><?php echo h("{$file['description']}");?></p>                              <!-- dbc.phpで定義した関数h()。htmlspecialchars()で囲われます。 -->
       <?php endforeach; ?>
     </div>
 
