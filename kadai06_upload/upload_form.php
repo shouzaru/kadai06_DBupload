@@ -67,7 +67,7 @@ $files = getAllFile();
     <div>
       <?php foreach($files as $file): ?>
         <img src="<?php echo "{$file['file_path']}";?>" alt="">
-        <p><?php echo h("{$file['description']}");?></p>
+        <p><?php echo h("{$file['description']}");?></p>                            <!-- h()はdbc.phpで宣言。htmlspecialchars()で囲む機能です。 -->
       <?php endforeach; ?>
 
 
